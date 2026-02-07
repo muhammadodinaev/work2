@@ -158,7 +158,36 @@
     font-weight: bold;
     padding: 10px 20px;
 }
-
+.imgOdam2{
+    width: 470px;
+    height: 500px;
+}
+.Pricing{
+    width: 80%;
+    margin: auto;
+    display: flex;gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.Pricing2{
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: end;
+}
+.p12{
+    font-size: 50px;
+    font-weight: 400px;
+}
+.p13{
+    font-size: 18px;
+    font-weight: 400px;
+    color: rgba(21, 21, 21, 1);
+   
+    width: 496px;
+    text-align: end;
+}
 
 
 
@@ -213,6 +242,26 @@
     }
     .p10{
         font-size: 30px;
+    }
+    .Pricing{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .imgOdam2{
+        width: 280px;
+        height: 298px;
+    }
+    .Pricing2{
+        text-align: start;
+        align-items: start;
+    }
+    .p13{
+        
+        width: 350px;
+        height: 78px;
+    }
+    .p12{
+        font-size: 28px;
     }
     
 }
