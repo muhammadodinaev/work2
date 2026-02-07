@@ -89,6 +89,39 @@
     color: white;
     border: none;
 }
+.imgshust{
+    width: 580px;
+    height: 500px;
+}
+.About{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+}
+.p3{
+    font-size: 50px;
+    font-weight: 400px;
+}
+.p4{
+    font-size: 18px;
+    font-weight: 400px;
+}
+.p5{
+    font-size: 20px;
+    font-weight: 400px;
+}
+.About2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.button4{
+    width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
 
 
 
@@ -125,6 +158,14 @@
     .content5{
         width: 350px;
         margin-top: 20px;
+    }
+    .About{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .imgshust{
+        width: 370px;
+        height: 320px;
     }
     
 }
