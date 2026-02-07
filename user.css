@@ -122,6 +122,42 @@
     font-weight: bold;
 
 }
+.Libraries{
+    width: 80%;
+    margin: auto;
+    display: flex;gap: 10px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.icon{
+    display: flex;gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+
+}
+.imgOdam{
+    width: 490px;
+    height: 700px;
+}
+.p6{
+    font-size: 26px;
+    font-weight: 400px;
+}
+.p10{
+    font-size: 60px;
+    font-weight: 400px;
+}
+.p7{
+    font-size: 18px;
+    font-weight: 400px;
+}
+.button5{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
 
 
 
@@ -166,6 +202,17 @@
     .imgshust{
         width: 370px;
         height: 320px;
+    }
+    .Libraries{
+        display: flex;
+        flex-direction: column;
+    }
+    .imgOdam{
+        width: 320px;
+        
+    }
+    .p10{
+        font-size: 30px;
     }
     
 }
